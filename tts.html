@@ -1,5 +1,6 @@
 <html lang="zh-CN">
 <head>
+    <script src="jump.js"></script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -765,6 +766,7 @@ height: 160px; /* 进一步减小移动端的文本框高度 */
 }
 </style></head>
 <body>
+
 <div class="blob blob-1"></div>
 <div class="blob blob-2"></div>
 <div class="container">
@@ -876,7 +878,7 @@ h1::after {
 
 </style>
 
-<a href="./index.html" class="sci-fi-btn" style="text-decoration: none;">
+<a href="javascript:jump('#home')" class="sci-fi-btn" style="text-decoration: none;">
     <!-- 添加流光边框 -->
     <span class="glowing-border"></span>
     <span class="glowing-border"></span>
@@ -1514,5 +1516,6 @@ clearHistoryBtn.addEventListener('click', clearHistory);
 // Initialize text stats
 updateTextStats();
 });
-</script></body>
+</script>
+</body>
 </html>
